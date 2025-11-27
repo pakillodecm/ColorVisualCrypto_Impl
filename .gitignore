@@ -1,0 +1,18 @@
+.venv/
+# Ignorar entorno virtual (IMPORTANTÍSIMO)
+.venv/
+venv/
+env/
+
+# Ignorar archivos compilados de Python
+__pycache__/
+*.py[cod]
+
+# Ignorar archivos de sistema de Mac/Windows
+.DS_Store
+Thumbs.db
+
+# Ignorar los resultados generados
+# Queremos la carpeta 'output' pero no las imágenes que se generan dentro
+output/*
+!output/.gitkeep
